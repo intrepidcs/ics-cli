@@ -15,7 +15,7 @@ Manage and use Intrepid Control Systems devices through the command line.
 
 ## Getting started
 # Linux
-To install unzip the release and add the executable located in `ics-cli/bin` to your path. Make sure to add capture permissions as well to the executable located at `ics-cli/bin` by running `chmod +x ics-cli/bin/ics`. Ethernet and USB devices require root permission or additional udev rules for usage. Make sure not to change the directory structure of the release as it could prevent the application from retrieving specific resources. Call `ics --help` to see specific options and subcommands.
+To install unzip the release and add the executable located in `ics-cli/bin` to your path. Make sure to set the executable bit on the application located at `ics-cli/bin` by running `chmod +x ics-cli/bin/ics`. Ethernet and USB devices require root permission or additional udev rules for usage. Make sure not to change the directory structure of the release as it could prevent the application from retrieving specific resources. Call `ics --help` to see specific options and subcommands.
 
 # Windows
 To install unzip the release and add the executable located in `ics-cli/bin` to your path. The application requires PCAP to be installed on the host computer. Make sure not to change the directory structure of the release as it could prevent the application from retrieving specific resources. Call `ics --help` to see specific options and subcommands.
