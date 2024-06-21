@@ -1,7 +1,7 @@
 # The Intrepid Control Systems command line tool
 Manage and use Intrepid Control Systems devices through the command line.
 ## Supported modules
-- Settings
+- Device settings
 - Firmware flashing
 - Hardware info retrieval
 - User settings
