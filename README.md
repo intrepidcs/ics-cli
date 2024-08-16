@@ -27,6 +27,11 @@ The application is installed by simply unzipping the directory while maintaining
 2. Unzip the downloaded file
 3. Move the `ics-cli` folder to your desired location, add the `ics-cli/bin` directory to your `PATH` if you'd like
 
+# Additional notes
+The resources for the application such as the device setting configuration files and the user settings file are found by the application by assuming there location from the location of the
+executable file. Therefore, do not change the structure of the directory when it is unzipped, for example do not move the device setting configuration files outside of the unzipped folder. The
+structure of the application folder must be maintained to ensure that resources can be found by the application.
+
 ## Requirements
 # Linux
 On linux this application requires root permissions to access device network interfaces or you can add the required ICS udev rules linked below.
