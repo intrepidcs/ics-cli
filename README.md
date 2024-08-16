@@ -17,13 +17,13 @@ Manage and use Intrepid Control Systems devices through the command line.
 The application is installed by simply unzipping the directory while maintaining its contents and adding the unzipped folder to your desired workspace, or adding the executable to your path.
 
 # Linux
-1. Download the `ics-cli` zip for Linux
+1. Download the `ics-cli.zip` file for Linux
 2. Unzip the downloaded file
-3. Add executable permissions to the application located in `ics-cli/bin/ics` by running `chmod +x ics-cli/bin/ics`
+3. Add executable permissions to the application located in `ics-cli/bin/` by running `chmod +x ics-cli/bin/ics`
 4. Move the `ics-cli` folder to your desired location and add the `ics-cli/bin` directory to your `PATH` if you'd like
 
 # Windows
-1. Download the `ics-cli` zip for Windows
+1. Download the `ics-cli.zip` file for Windows
 2. Unzip the downloaded file
 3. Move the `ics-cli` folder to your desired location, add the `ics-cli/bin` directory to your `PATH` if you'd like
 
