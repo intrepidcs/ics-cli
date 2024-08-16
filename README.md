@@ -13,12 +13,25 @@ Manage and use Intrepid Control Systems devices through the command line.
 - ValueCAN 4-4
 - RAD-A2B
 
-## Getting started
+## Installation directions
+The application is installed by simply unzipping the directory while maintaining its contents and adding the unzipped folder to your desired workspace, or adding the executable to your path.
+
 # Linux
-To install unzip the release and add the executable located in `ics-cli/bin` to your path. Make sure to set the executable bit on the application located at `ics-cli/bin` by running `chmod +x ics-cli/bin/ics`. Ethernet and USB devices require root permission or additional udev rules for usage. Make sure not to change the directory structure of the release as it could prevent the application from retrieving specific resources. Call `ics --help` to see specific options and subcommands.
+1. Download the `ics-cli` zip for Linux
+2. Unzip the downloaded file
+3. Add executable permissions to the application located in `ics-cli/bin/ics` by running `chmod +x ics-cli/bin/ics`
+4. Move the `ics-cli` folder to your desired location and add the `ics-cli/bin` directory to your `PATH` if you'd like
 
 # Windows
-To install unzip the release and add the executable located in `ics-cli/bin` to your path. The application requires PCAP to be installed on the host computer. Make sure not to change the directory structure of the release as it could prevent the application from retrieving specific resources. Call `ics --help` to see specific options and subcommands.
+1. Download the `ics-cli` zip for Windows
+2. Unzip the downloaded file
+3. Move the `ics-cli` folder to your desired location, add the `ics-cli/bin` directory to your `PATH` if you'd like
+
+## Requirements
+# Linux
+On linux this application requires root permissions to access device network interfaces or you can add the required ICS udev rules linked below.
+# Windows
+On windows this application requires a valid PCAP installation to access ICS devices using ethernet. 
 
 ## Intrepid Control Systems udev rules
 You can find the udev rules for our devices [here](https://github.com/intrepidcs/libicsneo/blob/master/99-intrepidcs.rules).
