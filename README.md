@@ -20,12 +20,12 @@ The application is installed by simply unzipping the directory while maintaining
 1. Download the `ics-cli.zip` file for Linux
 2. Unzip the downloaded file
 3. Add executable permissions to the application located in `ics-cli/bin/` by running `chmod +x ics-cli/bin/ics`
-4. Move the `ics-cli` folder to your desired location and add the `ics-cli/bin` directory to your `PATH` if you'd like
+4. Move the `ics-cli` folder to your desired location. Optionally add the `ics-cli/bin` absolute directory to your `PATH` var.
 
 # Windows
 1. Download the `ics-cli.zip` file for Windows
 2. Unzip the downloaded file
-3. Move the `ics-cli` folder to your desired location, add the `ics-cli/bin` directory to your `PATH` if you'd like
+3. Move the `ics-cli` folder to your desired location.  Optionally add the `ics-cli/bin` absolute directory to your `PATH` var.
 
 # Additional notes
 The resources for the application such as the device setting configuration files and the user settings file are found by the application by assuming there location from the location of the
