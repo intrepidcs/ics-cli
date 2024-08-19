@@ -19,7 +19,7 @@ The application is installed by simply unzipping the directory while maintaining
 # Linux
 1. Download the `ics-cli.zip` file for Linux
 2. Unzip the downloaded file
-3. Add executable permissions to the application located in `ics-cli/bin/` by running `chmod +x ics-cli/bin/ics`
+3. Add executable permissions to the application located in `ics-cli/bin` by running `chmod +x ics-cli/bin/ics`
 4. Move the `ics-cli` folder to your desired location. Optionally add the `ics-cli/bin` absolute directory to your `PATH` var.
 
 # Windows
