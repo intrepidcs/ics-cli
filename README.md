@@ -34,7 +34,7 @@ structure of the application folder must be maintained to ensure that resources 
 
 ## Requirements
 # Linux
-On linux this application requires root permissions to access device network interfaces or you can add the required ICS udev rules linked below.
+On linux this application requires root permissions to access device network interfaces or you can add the ICS udev rules linked below.
 # Windows
 On windows this application requires a valid PCAP installation to access ICS devices using ethernet. 
 
