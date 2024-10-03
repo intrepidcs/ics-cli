@@ -5,6 +5,7 @@ Manage and use Intrepid Control Systems devices through the command line.
 - Firmware flashing
 - Hardware info retrieval
 - User settings
+- Web based firmware binary retrieval
 
 ## Supported devices
 - RAD-Gigastar
